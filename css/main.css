@@ -9,7 +9,22 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+#fenster {
+	/*ergänzt*/
+	background-color: #ddd;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+#ecw {
+	/*ergänzt*/
+	font-weight: bold;
+	font-face: courier;
+	color: darkblue;
+	text-align:right;
+	}
 
+   
 html,
 button,
 input,

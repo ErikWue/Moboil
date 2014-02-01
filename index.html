@@ -39,16 +39,14 @@
     </head>
     <body>
         <!-- Add your site or application content here -->
-		<h1>Hello HTML 5!</h1>
-		<h2>An Instant Video</h2>
-		<video>
-			<source src="vid/aninstant.mp4" type="video/mp4" />
-		</video>
-
-
-
-
-
+		<div id="fenster">
+			<h1>An Instant Video - Thanks to<img src="http://www.w3.org/html/logo/downloads/HTML5_Logo.svg" height="60px"/></h1>
+			<video width="100%" controls>
+				<source src="vid/aninstant.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<p id="ecw">ecw made this in 2014</p>
+		</div>
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
